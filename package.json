@@ -1,4 +1,7 @@
 {
+  "name": "citysmart-dashboard",
+  "version": "0.0.1",
+  "engines": { "node": "18.x" },
   "scripts": {
     "dev": "concurrently -k \"npm:server\" \"vite\"",
     "server": "node server/index.js",

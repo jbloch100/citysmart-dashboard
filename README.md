@@ -18,7 +18,7 @@ CitySmart Dashboard is a responsive web app built with **Vite + React** that ser
 
 ## 🛠 Tech Stack
 - **Frontend**: React.js, CSS3, HTML5
-- **APIs**: Open-Meteo, CurrentsAPI
+- **APIs**: Open-Meteo, NewsAPI.org
 - **Build Tool**: Vite
 - **Version Control**: Git, GitHub
 

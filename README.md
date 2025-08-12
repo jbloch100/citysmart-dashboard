@@ -1,86 +1,64 @@
-# 🌆 CitySmart Dashboard
+# CitySmart Dashboard
 
-[![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-black)](https://vercel.com/)  
-**Live Demo:** [https://citysmart-dashboard.vercel.app](https://citysmart-dashboard-sge1-3zosteze8.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://citysmart-dashboard-sge1-3zosteze8.vercel.app)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Open-Meteo API](https://img.shields.io/badge/API-Open--Meteo-blue)
+![CurrentsAPI](https://img.shields.io/badge/API-CurrentsAPI-orange)
 
-CitySmart Dashboard is a modern, responsive web app built with **Vite + React** that serves as your daily city information hub. It fetches **real-time weather** and the **latest news headlines**, all in one clean and fast interface.
+CitySmart Dashboard is a responsive web app built with **Vite + React** that serves as your daily city information hub. It fetches real-time weather data and the latest news, making it a one-stop dashboard for urban living.
 
----
-
-## ✨ Features
-- **🌤 Real-time Weather** – Current temperature and windspeed for Brampton, ON (Open-Meteo API).
-- **📰 Latest News** – Top 5 headlines from CurrentsAPI, securely fetched via a serverless function (no exposed API keys).
-- **📱 Responsive Design** – Looks great on desktops, tablets, and mobile.
-- **⚡ Fast Build** – Powered by Vite for instant reloads and optimized production builds.
-- **🔒 Secure API Calls** – News API key stored in environment variables and accessed only server-side.
-
----
+## 🚀 Features
+- **Real-time Weather**: Displays temperature and windspeed for Brampton, ON (Open-Meteo API).
+- **Latest News**: Shows top 5 latest headlines (CurrentsAPI).
+- **Responsive UI**: Works across desktops, tablets, and phones.
+- **Modern Stack**: Built with Vite for blazing-fast development.
 
 ## 🛠 Tech Stack
-- **Frontend:** React.js, CSS3, HTML5
-- **APIs:** [Open-Meteo](https://open-meteo.com/), [CurrentsAPI](https://currentsapi.services/)
-- **Build Tool:** Vite
-- **Version Control:** Git + GitHub
-- **Deployment:** Vercel (with serverless API functions)
-
----
+- **Frontend**: React.js, CSS3, HTML5
+- **APIs**: Open-Meteo, CurrentsAPI
+- **Build Tool**: Vite
+- **Version Control**: Git, GitHub
 
 ## 📂 Project Structure
 ```
 citysmart-dashboard/
-├── api/                 # Serverless functions (Vercel)
-│   └── news.js
-├── public/               # Public assets (screenshots, icons)
-├── server/               # Local dev API server (Express)
-│   └── index.js
+├── public/
 ├── src/
-│   ├── components/       # WeatherWidget, NewsWidget
-│   ├── pages/            # DashboardPage
+│   ├── components/    # WeatherWidget, NewsWidget
+│   ├── pages/         # DashboardPage
+│   ├── assets/        # Images/icons
 │   ├── App.jsx
 │   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── .env                  # Local API keys (not committed)
+│   ├── main.jsx
+│   └── index.css
 ├── package.json
 ├── vite.config.js
-└── README.md
+└── index.html
 ```
 
----
-
-## 🔧 Local Development
+## 🔧 Setup
 ```bash
-# Install dependencies
 npm install
-
-# Start Vite + local API proxy server
 npm run dev
 ```
 
-Create a `.env` file in the project root for local dev:
-```
-NEWS_API_KEY=your_currents_api_key_here
-```
-> ⚠️ `.env` is ignored by Git and should never be committed.
-
----
+## 🌐 Deployment
+Deployed with [Vercel](https://vercel.com/) — [**View Live Demo**](https://citysmart-dashboard-sge1-3zosteze8.vercel.app)
 
 ## 📸 Screenshots
+### Mobile View
+<img src="public/screenshot-mobile.png" alt="CitySmart Dashboard - Mobile" width="320"/>
 
-**Desktop View**
-![CitySmart Dashboard - Desktop](public/screenshot-desktop.png)
+### Desktop View
+<img src="public/screenshot-desktop.png" alt="CitySmart Dashboard - Desktop" width="720"/>
 
-**Mobile View**
-![CitySmart Dashboard - Mobile](public/screenshot-mobile.png)
+## 📅 Roadmap
+- 🌍 Geolocation-based weather
+- 🏙 City selection dropdown
+- 📦 PWA offline mode
 
----
-
-## 🗺 Roadmap
-- Geolocation-based weather
-- City selection dropdown
-- PWA offline mode
-
----
-
-## 📜 License
+## 📄 License
 This project is open source and available under the [MIT License](LICENSE).

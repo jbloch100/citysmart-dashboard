@@ -66,12 +66,12 @@ NEWS_API_KEY=your_currents_api_key_here
 ---
 
 ## 📸 Screenshots
-<p>
-  <img src="public/screenshot-desktop.png" alt="CitySmart Dashboard - Desktop" width="720"/>
-</p>
-<p>
-  <img src="public/screenshot-mobile.png" alt="CitySmart Dashboard - Mobile" width="320"/>
-</p>
+
+**Desktop View**
+![CitySmart Dashboard - Desktop](public/screenshot-desktop.png)
+
+**Mobile View**
+![CitySmart Dashboard - Mobile](public/screenshot-mobile.png)
 
 ---
 

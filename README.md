@@ -1,7 +1,7 @@
 # 🌆 CitySmart Dashboard
 
 [![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-black)](https://vercel.com/)  
-**Live Demo:** [https://your-vercel-domain.vercel.app](https://your-vercel-domain.vercel.app)
+**Live Demo:** [https://citysmart-dashboard.vercel.app](https://citysmart-dashboard-sge1-3zosteze8.vercel.app/)
 
 CitySmart Dashboard is a modern, responsive web app built with **Vite + React** that serves as your daily city information hub. It fetches **real-time weather** and the **latest news headlines**, all in one clean and fast interface.
 

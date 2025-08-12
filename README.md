@@ -46,7 +46,7 @@ npm run dev
 ```
 
 ## 🌐 Deployment
-Deployed with [Vercel](https://vercel.com/) — [**View Live Demo**](https://citysmart-dashboard-sge1-3zosteze8.vercel.app)
+Deployed with [Vercel](https://vercel.com/) — [**View Live Demo**](https://citysmart-dashboard-five.vercel.app/)
 
 ## 📸 Screenshots
 ### Mobile View

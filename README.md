@@ -65,25 +65,12 @@ NEWS_API_KEY=your_currents_api_key_here
 
 ---
 
-## 🚀 Deployment (Vercel)
-1. Push your project to GitHub.
-2. Import the repo in [Vercel](https://vercel.com/).
-3. In **Project Settings → Environment Variables**, add:
-   ```
-   NEWS_API_KEY=your_currents_api_key_here
-   ```
-4. Deploy!  
-Vercel will handle `/api/news` via the serverless function in `api/news.js`.
-
----
-
 ## 📸 Screenshots
-> Add images to `public/` and link them here.
 <p>
-  <img src="/screenshot-desktop.png" alt="CitySmart Dashboard - Desktop" width="720"/>
+  <img src="public/screenshot-desktop.png" alt="CitySmart Dashboard - Desktop" width="720"/>
 </p>
 <p>
-  <img src="/screenshot-mobile.png" alt="CitySmart Dashboard - Mobile" width="320"/>
+  <img src="public/screenshot-mobile.png" alt="CitySmart Dashboard - Mobile" width="320"/>
 </p>
 
 ---

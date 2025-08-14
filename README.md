@@ -63,14 +63,6 @@ npm run dev
 ---
 
 ## 🌐 Deployment (Vercel)
-1. Push your project to GitHub.
-2. Import the repository into [Vercel](https://vercel.com/).
-3. In **Vercel Project Settings → Environment Variables**, add:
-   ```
-   NEWS_API_KEY=your_newsapi_org_key_here
-   ```
-4. Deploy — Vercel will build & serve both the React frontend and the `/api/news` backend route.
-
 🔗 **Live Demo:** [citysmart-dashboard.vercel.app](https://citysmart-dashboard-five.vercel.app/)
 
 ---
